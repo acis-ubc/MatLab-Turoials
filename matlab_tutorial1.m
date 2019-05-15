@@ -41,7 +41,7 @@ a2 = a-b
 a3 = a*b
 a4 = a/b
 
-%a5 = A/b % Matlab is case sensitive
+a5 = A/b % Matlab is case sensitive
 
 %% 1.3 Matricies and Arrays (Data Types)
 
@@ -96,13 +96,15 @@ E2 = eye(4,6)
 
 %% 1.5 Important Operators
 
-A = 1;
+A = 4;
 %if loops are used as a conditional check to perform a task
 
 % if A<10
 %     A2 = 33;
 % elseif A > 10
 %     A2 = 44;
+% elseif A > 100
+%     "damn"
 % else
 %     A2 = 22;
 % end
@@ -116,8 +118,8 @@ while A < 10,
 end
 
 %for loops are conditional, where the set is based on 
-for i = 1:2:20
-    E2(i) = 10
+for i = 1:3:20
+    E2(i) = 10;
 end
 E2
 
